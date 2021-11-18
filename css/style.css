@@ -102,12 +102,26 @@
     filter: sepia(0.6)
 }
 
+/* Esercizio 10 */
 .ex-10-icon {
     font-size: 60px;
+    animation: turnon 1s infinite linear;
 }
+
+@keyframes turnon {
+    from{
+        transform: rotate(360deg);
+    }to{
+        transform: rotate(0deg);
+    }
+}
+
+/* Esercizio 11 */
 .ex-11-icon {
     font-size: 60px;
 }
+
+/* Esercizio 12 */
 .ex-12-button, .ex-13-button {
     position: relative;
     display: block;
