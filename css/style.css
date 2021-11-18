@@ -105,10 +105,10 @@
 /* Esercizio 10 */
 .ex-10-icon {
     font-size: 60px;
-    animation: turnon 1s infinite linear;
+    animation: turn-on 1s infinite linear;
 }
 
-@keyframes turnon {
+@keyframes turn-on {
     from{
         transform: rotate(360deg);
     }to{
@@ -119,6 +119,20 @@
 /* Esercizio 11 */
 .ex-11-icon {
     font-size: 60px;
+}
+
+.ex-11-icon:hover{
+    animation: turn-over 2s linear;
+}
+
+@keyframes turn-over {
+    0%{
+        transform: rotate(0deg);
+    }50%{
+        transform: rotate(360deg);
+    }75%{
+        transform: rotate(0deg);
+    }
 }
 
 /* Esercizio 12 */
